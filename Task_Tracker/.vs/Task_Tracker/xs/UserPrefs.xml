@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{7AFC4B04-7EF7-4252-A220-1EC3C1F5964C}|Default">
+  <MonoDevelop.Ide.ItemProperties.Task__Tracker PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/EntryController.cs">
+    <Files>
+      <File FileName="Views/Entry/Add.cshtml" Line="17" Column="23" />
+      <File FileName="Controllers/EntryController.cs" Line="18" Column="21" />
+      <File FileName="Models/Entry.cs" Line="17" Column="1" />
+      <File FileName="Views/Entry/Index.cshtml" Line="10" Column="17" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="29" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Task_Tracker" expanded="True">
+            <Node name="Task_Tracker" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Entry" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

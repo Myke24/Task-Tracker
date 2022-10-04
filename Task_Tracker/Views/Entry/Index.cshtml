@@ -1,0 +1,27 @@
+﻿@model List<Task_Tracker.Models.Entry>
+
+<h1>Entries</h1>
+<div>
+    <a asp-controller="Entry" asp-action="Add">Add Entry</a>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Entry entry in Model)
+            {
+                <tr>
+                    <td>@entry.Title</td>
+                    <td>@entry.Description</td>
+                    <td>@entry.StartDate.ToString()</td>
+                    <td>@entry.EndDate.ToString()</td>
+                </tr>
+            }
+    </tbody>
+</table>
